@@ -1,0 +1,90 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "redux-typeahead",
+        "scope": null,
+        "escapedName": "redux-typeahead",
+        "name": "redux-typeahead",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      }
+    ]
+  ],
+  "_from": "redux-typeahead@latest",
+  "_id": "redux-typeahead@0.9.9",
+  "_inCache": true,
+  "_location": "/redux-typeahead",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "Anish.M.Prasad",
+    "email": "anishmprasad@gmail.com"
+  },
+  "_npmVersion": "2.11.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "redux-typeahead",
+    "scope": null,
+    "escapedName": "redux-typeahead",
+    "name": "redux-typeahead",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "",
+  "_shasum": "c7c39943c02349d420ef8342e5ea05e45ad5d3b4",
+  "_shrinkwrap": null,
+  "_spec": "react-typeahead-component",
+  "_where": "/Users/ghost/Documents/elasticsearch-react-example",
+  "author": {
+    "name": "Anish M Prasad",
+    "email": "anishmprasad@gmail.com"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "dependencies": {},
+  "description": "Typeahead, written using the React ES6 library.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "c7c39943c02349d420ef8342e5ea05e45ad5d3b4",
+    "tarball": ""
+  },
+  "homepage": "https://github.com/Anishmprasad/redux-typeahead",
+  "keywords": [
+    "react",
+    "reactjs",
+    "typeahead",
+    "autocomplete",
+    "react-component",
+    "component",
+    "ES16",
+    "React15",
+    "redux-typeahead"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "Anish.M.Prasad",
+      "email": "anishmprasad@gmail.com"
+    }
+  ],
+  "name": "redux-typeahead",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react": ">=0.15.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anishmprasad/redux-typeahead.git"
+  },
+  "scripts": {},
+  "version": "0.9.8"
+}
