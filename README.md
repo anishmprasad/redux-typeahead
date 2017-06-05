@@ -1,4 +1,4 @@
-# typeahead-react-component
+# redux-typeahead
 Typeahead Component for React ES6 and Redux
 
 Typeahead, written using the Redux and React ES6 library.
