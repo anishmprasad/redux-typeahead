@@ -1,7 +1,7 @@
 # typeahead-react-component
-Typeahead Component for React ES6
+Typeahead Component for React ES6 and Redux
 
-Typeahead, written using the React ES6 library.
+Typeahead, written using the Redux and React ES6 library.
 ==============================================
 
 
@@ -9,6 +9,7 @@ Features
 ========
 * Typeahead with React15 with ES6 Support
 * Typeahead with Elasticsearch client Support (using elasticsearch package)
+* Redux Support
 
 
 
@@ -399,6 +400,7 @@ Packages Needed
 * classnames : ^2.1.1
 * react : ^15.4.2
 * react-dom : ^15.4.2
+* redux: ^3.6.0
 
 Testing
 -------
@@ -406,7 +408,11 @@ The tests are written using [mocha](https://github.com/mochajs/mocha), and ran u
 
 Issues
 ------
-Please [file an issue](https://github.com/Anishmprasad/typeahead-react-component/issues) if you find a bug, or need help.
+Please [file an issue](https://github.com/Anishmprasad/redux-typeahead/issues) if you find a bug, or need help.
+
+Note
+------
+COMPONENT IS IN DEVELOMENT STAGE, IF ANY ISSUES FACES PLEASE RAISE A TICKET 
 
 License
 -------
