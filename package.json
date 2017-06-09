@@ -13,7 +13,7 @@
     ]
   ],
   "_from": "redux-typeahead@latest",
-  "_id": "redux-typeahead@0.10.1",
+  "_id": "redux-typeahead@0.10.2",
   "_inCache": true,
   "_location": "/redux-typeahead",
   "_nodeVersion": "0.12.7",
@@ -45,10 +45,10 @@
     "email": "anishmprasad@gmail.com"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/Anishmprasad/redux-typeahead/issues"
   },
   "dependencies": {},
-  "description": "Typeahead, written using the React ES6 library.",
+  "description": "Typeahead, written using the React ES6 library and Redux",
   "devDependencies": {},
   "directories": {},
   "dist": {
@@ -65,7 +65,9 @@
     "component",
     "ES16",
     "React15",
-    "redux-typeahead"
+    "redux-typeahead",
+    "elasticsearch",
+    "redux-thunk"
   ],
   "license": "MIT",
   "main": "index.js",
@@ -78,7 +80,10 @@
   "name": "redux-typeahead",
   "optionalDependencies": {},
   "peerDependencies": {
-    "react": ">=0.15.0"
+    "react": ">=0.15.0",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "elasticsearch": "^10.1.3"
   },
   "readme": "ERROR: No README data found!",
   "repository": {
@@ -86,5 +91,5 @@
     "url": "git+https://github.com/Anishmprasad/redux-typeahead.git"
   },
   "scripts": {},
-  "version": "0.10.1"
+  "version": "0.10.2"
 }
