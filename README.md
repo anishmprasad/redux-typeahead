@@ -18,7 +18,7 @@ Getting started
 
 If you're developing using npm and CommonJS modules:
 ```
-npm i typeahead-react-component
+npm i redux-typeahead
 ```
 ```jsx
 React.render(
@@ -410,9 +410,6 @@ Issues
 ------
 Please [file an issue](https://github.com/Anishmprasad/redux-typeahead/issues) if you find a bug, or need help.
 
-Note
-------
-COMPONENT IS IN DEVELOMENT STAGE, IF ANY ISSUES FACES PLEASE RAISE A TICKET 
 
 License
 -------
