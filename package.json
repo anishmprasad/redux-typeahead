@@ -13,7 +13,7 @@
     ]
   ],
   "_from": "redux-typeahead@latest",
-  "_id": "redux-typeahead@0.10.3",
+  "_id": "redux-typeahead@0.10.4",
   "_inCache": true,
   "_location": "/redux-typeahead",
   "_nodeVersion": "0.12.7",
@@ -83,7 +83,12 @@
     "react": ">=0.15.0",
     "redux": "^3.6.0",
     "redux-thunk": "^2.2.0",
-    "elasticsearch": "^10.1.3"
+    "elasticsearch": "^10.1.3",
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-plugin-react-transform": "^2.0.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13"
   },
   "readme": "ERROR: No README data found!",
   "repository": {
@@ -91,5 +96,5 @@
     "url": "git+https://github.com/Anishmprasad/redux-typeahead.git"
   },
   "scripts": {},
-  "version": "0.10.3"
+  "version": "0.10.4"
 }
