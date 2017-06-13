@@ -10,36 +10,52 @@
         "spec": "latest",
         "type": "tag"
       }
+    ],
+    [
+      {
+        "raw": "redux-typeahead@^0.10.6",
+        "scope": null,
+        "escapedName": "redux-typeahead",
+        "name": "redux-typeahead",
+        "rawSpec": "^0.10.5",
+        "spec": ">=0.10.5 <0.11.0",
+        "type": "range"
+      },
+      "/Users/ghost/Documents/reacrh-frontend/embibe_app"
     ]
   ],
-  "_from": "redux-typeahead@latest",
+  "_from": "redux-typeahead@^0.10.5",
   "_id": "redux-typeahead@0.10.5",
   "_inCache": true,
   "_location": "/redux-typeahead",
-  "_nodeVersion": "0.12.7",
-  "_npmUser": {
-    "name": "Anish.M.Prasad",
-    "email": "anishmprasad@gmail.com"
+  "_nodeVersion": "7.7.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/redux-typeahead-0.10.5.tgz_1497291114759_0.8116780950222164"
   },
-  "_npmVersion": "2.11.3",
+  "_npmUser": {
+    "name": "anishmprasad",
+    "email": "anish.m.prasad@gmail.com"
+  },
+  "_npmVersion": "4.1.2",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "redux-typeahead",
+    "raw": "redux-typeahead@^0.10.5",
     "scope": null,
     "escapedName": "redux-typeahead",
     "name": "redux-typeahead",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+    "rawSpec": "^0.10.5",
+    "spec": ">=0.10.5 <0.11.0",
+    "type": "range"
   },
   "_requiredBy": [
-    "#USER"
+    "#DEV:/"
   ],
-  "_resolved": "",
-  "_shasum": "c7c39943c02349d420ef8342e5ea05e45ad5d3b4",
+  "_resolved": "https://registry.npmjs.org/redux-typeahead/-/redux-typeahead-0.10.5.tgz",
+  "_shasum": "6c4f0f7624a27505792c5707763f49ad8a2d06b3",
   "_shrinkwrap": null,
-  "_spec": "react-typeahead-component",
-  "_where": "/Users/ghost/Documents/elasticsearch-react-example",
+  "_spec": "redux-typeahead@^0.10.5",
+  "_where": "/Users/ghost/Documents/reacrh-frontend/embibe_app",
   "author": {
     "name": "Anish M Prasad",
     "email": "anishmprasad@gmail.com"
@@ -52,9 +68,10 @@
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "shasum": "c7c39943c02349d420ef8342e5ea05e45ad5d3b4",
-    "tarball": ""
+    "shasum": "6c4f0f7624a27505792c5707763f49ad8a2d06b3",
+    "tarball": "https://registry.npmjs.org/redux-typeahead/-/redux-typeahead-0.10.5.tgz"
   },
+  "gitHead": "e164a927242e42a3adfa594bf2483e9770787810",
   "homepage": "https://github.com/Anishmprasad/redux-typeahead",
   "keywords": [
     "react",
@@ -73,8 +90,8 @@
   "main": "index.js",
   "maintainers": [
     {
-      "name": "Anish.M.Prasad",
-      "email": "anishmprasad@gmail.com"
+      "name": "anishmprasad",
+      "email": "anish.m.prasad@gmail.com"
     }
   ],
   "name": "redux-typeahead",
@@ -83,12 +100,20 @@
     "react": ">=0.15.0",
     "redux": "^3.6.0",
     "redux-thunk": "^2.2.0",
-    "elasticsearch": "^10.1.3",
-    "babel-core": "^6.4.5",
-    "babel-loader": "^6.3.2",
-    "babel-plugin-react-transform": "^2.0.0",
-    "babel-preset-es2015": "^6.3.13",
-    "babel-preset-react": "^6.3.13",
+    "elasticsearch": "^10.1.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.13.1",
+    "eslint-plugin-react": "^6.9.0",
+    "extract-text-webpack-plugin": "2.0.0-beta.4",
+    "style-loader": "^0.13.1",
     "webpack": "^1.15.0"
   },
   "readme": "ERROR: No README data found!",
@@ -97,5 +122,5 @@
     "url": "git+https://github.com/Anishmprasad/redux-typeahead.git"
   },
   "scripts": {},
-  "version": "0.10.5"
+  "version": "0.10.6"
 }

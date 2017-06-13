@@ -4,11 +4,10 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 module.exports = {
   context: __dirname,
   entry: __dirname + '/index.js',
-  target: 'web',
   output: {
     path: __dirname,
     filename: 'index.js',
-    library: 'Reduxtypeahead',
+    library: 'ReduxTypeahead',
     libraryTarget: 'umd'
   },
   resolve: {
@@ -17,7 +16,7 @@ module.exports = {
       'node_modules'
     ]
   },
-    module: {
+  module: {
       rules: [
         {
           include: [
@@ -34,7 +33,8 @@ module.exports = {
             },
           ],
         }
-        ]},
+        ]
+    },
   plugins: [
     new ExtractTextPlugin("style.css")
   ],
