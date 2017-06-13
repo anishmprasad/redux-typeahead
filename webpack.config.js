@@ -4,9 +4,10 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 module.exports = {
   context: __dirname,
   entry: __dirname + '/index.js',
+  target: 'web',
   output: {
-    path: __dirname,
-    filename: 'index.js',
+    path: __dirname + '/dist/',
+    filename: 'ReduxTypeahead.js',
     library: 'ReduxTypeahead',
     libraryTarget: 'umd'
   },
@@ -17,24 +18,20 @@ module.exports = {
     ]
   },
   module: {
-      rules: [
-        {
-          include: [
-            path.resolve(__dirname, './index.js'),
-            path.resolve(__dirname, './node_modules/redux-typeahead'),
-          ],
-          test: /\.(js|jsx)$/,
-          use: [
-            {
-              loader: 'babel-loader',
-              options: {
-                cacheDirectory: true,
-              },
-            },
-          ],
-        }
-        ]
-    },
+    rules: [{
+      test: /\.js?$/,
+      loader: 'babel-loader',
+      include: [
+        path.resolve(__dirname)
+      ]
+    }, {
+      test: /\.css?$/,
+      loader: ExtractTextPlugin.extract({
+        fallbackLoader: "style-loader",
+        loader: "css-loader"
+      })
+    }]
+  },
   plugins: [
     new ExtractTextPlugin("style.css")
   ],
