@@ -42,6 +42,42 @@ React.render(
 
 You may also want to download one of the distributions from the `dist` folder, and load it in the browser that way. A global variable named `Typeahead` will be available to use.
 
+
+Webpack Configuration File
+--------------------------
+
+While importing module to allow module to babelify you can use this configuration to fix the issue with `You may need an appropriate loader to handle this file type` in terminal while run. in these case you can add `exclude: /node_modules\/(?!(redux-typeahead)\/).*/` in `webpack.config.js` 
+
+
+```js
+
+module: {
+    loaders: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules\/(?!(redux-typeahead)\/).*/,
+        loader: 'babel-loader',
+        query: {
+          presets: ['es2015', 'react'],
+          plugins: [['react-transform', {
+            transforms: [{
+              transform: 'react-transform-hmr',
+              imports: ['react'],
+              locals: ['module']
+            }],
+          }]],
+        },
+      },
+    ],
+  }
+  
+  
+```
+
+
+
+
+
 Class names
 -----------
 
