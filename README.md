@@ -438,9 +438,6 @@ Packages Needed
 * react-dom : ^15.4.2
 * redux: ^3.6.0
 
-Testing
--------
-The tests are written using [mocha](https://github.com/mochajs/mocha), and ran using [Karma](https://github.com/karma-runner/karma). Run the command `npm test` to perform a single run of the tests in PhantomJS, and `npm run test:dev` to debug the tests in Chrome.
 
 Issues
 ------
