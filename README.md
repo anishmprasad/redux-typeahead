@@ -447,4 +447,5 @@ Please [file an issue](https://github.com/Anishmprasad/redux-typeahead/issues) i
 License
 -------
 The MIT License (MIT)
+
 Copyright (c) 2019 Anish M Prasad
