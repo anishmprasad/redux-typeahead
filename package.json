@@ -21,7 +21,7 @@
         "spec": ">=0.10.5 <0.11.0",
         "type": "range"
       },
-      "/Users/ghost/Documents/reacrh-frontend/embibe_app"
+      ""
     ]
   ],
   "_from": "redux-typeahead@^0.10.5",
@@ -55,7 +55,7 @@
   "_shasum": "6c4f0f7624a27505792c5707763f49ad8a2d06b3",
   "_shrinkwrap": null,
   "_spec": "redux-typeahead@^0.10.5",
-  "_where": "/Users/ghost/Documents/reacrh-frontend/embibe_app",
+  "_where": "",
   "author": {
     "name": "Anish M Prasad",
     "email": "anishmprasad@gmail.com"
